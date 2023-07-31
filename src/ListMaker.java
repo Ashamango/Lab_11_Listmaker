@@ -6,7 +6,7 @@ public class ListMaker { // class ListMaker
         Scanner console = new Scanner(System.in); // Scanner console = new Scanner(System.in)
         Scanner in = new Scanner(System.in); // Scanner in = new Scanner(System.in)
 
-        final String menu = "A - Add D - Delete P - Print Q - Quit"; // menu of add delete print or quit
+        final String menu = "A - Add D - Delete P - Print Q - Quit"; // menu choices of add delete print or quit
         boolean done = false; // boolean done = false repeats loop until break
         String item = ""; // String item = "" item needed to add
         String cmd = ""; // String cmd = "" prints out what menu choice the user chose
